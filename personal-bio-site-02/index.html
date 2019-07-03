@@ -1,44 +1,79 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Personal-website></title>
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  <main>
-     <div class="page active" id="home">
-       <h1>Home</h1>
-       <ol>
-         <li><a herf="#" data-target="home" class="nav-link"><home/a></li>
-         <li><a herf="#" data-target="Technologies" class="nav-link">Technologies</a></li>
-        <li><a herf="#" data-target="projects" class="nav-link">projects</a></li>
-       </li>
-       </ol>
-     </div>
-     <div class="page" id="list">
-       <h1>Technologies</h1>
-       <lo>
-         <li><a herf="#" data-target="Home" class="nav-link"></a>Home</a></li>
-         <li><a herf="#" data-target="List" class="nav-link"></a>List</a></li>
-         <li><a herf="#" data-target="Detials" class="nav-link"></a>Detials</a></li>
-       </lo>
-     </div>
-     <div class="page" id="list">
-      <h1>projects</h1>
-      <lo>
-        <li><a herf="#" data-target="Home" class="nav-link"></a>Home</a></li>
-        <li><a herf="#" data-target="List" class="nav-link"></a>List</a></li>
-        <li><a herf="#" data-target="Detials" class="nav-link"></a>Detials</a></li>
-      </lo>
-    </div>
-  </main>
-
-
+  <header id='siteName'><b>Lwam-Tekie</b></header>
+  <link rel='stylesheet' href="./navBar.css">
+  <link rel="stylesheet" href="../main.css">
 
  
-  <script src="main.js"></script>
-</body>
+</head>
+
+<body>
+
+  <div>
+    <!-- Navigation -->
+    <nav>
+      
+      
+      <div class="topnav-center">
+          
+        <a href="navToBio">Bio</a>
+        <a href="navToTechnologies">Technologies</a>
+        <a href="navToProjects">Projects</a>
+      </div>
+      </ul>
+    </nav>
+    <!-- End Navigation -->
+
+
+
+    <!-- Primary View -->
+
+    <div class="fullPage" id="bioPage">
+      <div class="image"><img class="biopic" src="https://avatars2.githubusercontent.com/u/47877959?s=400&u=093d974c55ba9fdca670611a6f1e2600bc859e5b&v=4"
+        alt="Lwam"></div>
+      <div class="bioText">
+        <p>I don't have any background in web developing and coding at all. But I love the challenge of making things. And when I start to learn web developing in  NSS, It was a little bit foreign. But  I like the progress I am making from where I start. And coding is a challenge and fun at the same time.</p>
+    </div>
+  </div>
+
+
+
+
+    <div class="fullPage" id="technologiesPage">
+      <ul id="Technologies">
+        <header>Technologies</header>
+        <li>html</li>
+        <li> main.css</li>
+        <li>J.S</li>
+        <li>json.data(db)</li>
+      </ul>
+    </div>
+    <div class="fullPage" id="projectsPage"></div>
+    <ul id="projects"header>Projects</header>
+      <li>Product-cards</li>
+      <li> Pet-adoption</li>
+      <li>favorite-places</li>
+    </ul>
+
+
+
+
+    <footer class="page-footer">
+      <ul style="list-style-type:none;">
+        <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+       <header>Contact</header>
+        <li>phone:615-638-3748</li>
+        <li>email:ltekie87@yahoo.com</li>
+        <li>github:https://github.com/Lwamtekie</li>
+      </ul>
+
+    </footer>
+
+    <script src="../main.js"></script>
+  </body>
+
 </html>

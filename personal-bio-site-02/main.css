@@ -1,4 +1,66 @@
 .body{
     background-color: blanchedalmond;
 }
-s
+body {
+    background-image: url(https://image.shutterstock.com/image-photo/bright-colors-dawn-on-beach-260nw-1288885015.jpg);
+    background-position: center center ; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+#siteName{
+    font-size: 75px;
+    text-align: center;
+    font-style: italic;
+    -webkit-text-fill-color: Black;
+  }
+
+  #bioPage{
+    display: flex;
+
+  }
+  
+  .biopic {
+    width:400px;
+    border-radius: 100%;
+    margin-top: 5rem
+}
+
+  .biotext{
+    float:right;
+    margin-left: 0px;
+    margin-left: 0rem;
+    margin-top: 10rem;
+    font-size: 1.5rem;
+  
+  }
+  .topnav-center {
+    float: center;
+    font-size: 25px;
+    color:black;
+    margin-left: 40rem;
+  
+  }
+  .h1{
+    text-align: center;
+  }
+  .p{
+    float: left;
+    margin-top: 8rem;
+    
+  }
+
+  .ul{
+    font-size:2rem;
+  }
+
+  .page-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:black;
+    text-align: center;
+    float:bottom;
+  
+}
+  
