@@ -54,33 +54,50 @@ const printToDom = (divId, textToPrint) => {
       url: "https://github.com/Lwamtekie/sandwich-maker"
     }
   ];
+
   const bioHideAndShow = () => {
     const bioDiv = document.getElementById('AboutPage');
     const projectDiv = document.getElementById('ProjectPage');
     const techDiv = document.getElementById('TechnologiesPage');
+    const contactLinkDiv = document.getElementById('ContactPage');
     bioDiv.classList.remove('hide');
     projectDiv.classList.add('hide');
     techDiv.classList.add('hide');
+    contactLinkDiv.classList.add('hide');
       
     } 
+    const contactsLinkHideAndShow = () => {
+        const bioDiv = document.getElementById('AboutPage');
+        const projectDiv = document.getElementById('ProjectPage');
+        const techDiv = document.getElementById('TechnologiesPage');
+        const contactLinkDiv = document.getElementById('ContactPage');
+        bioDiv.classList.add('hide');
+        projectDiv.classList.add('hide');
+        techDiv.classList.add('hide');
+        contactLinkDiv.classList.remove('hide');
+        
+      } 
     
   const projectHideAndShow = () => {
     const bioDiv = document.getElementById('AboutPage');
     const projectDiv = document.getElementById('ProjectPage');
     const techDiv = document.getElementById('TechnologiesPage');
+    const contactLinkDiv = document.getElementById('ContactPage');
     bioDiv.classList.add('hide');
     projectDiv.classList.remove('hide');
     techDiv.classList.add('hide');
+    contactLinkDiv.classList.add('hide');
     
   } 
   const techHideAndShow = () => {
     const bioDiv = document.getElementById('AboutPage');
     const projectDiv = document.getElementById('ProjectPage');
     const techDiv = document.getElementById('TechnologiesPage');
-    
+    const contactLinkDiv = document.getElementById('ContactPage');
     bioDiv.classList.add('hide');
     projectDiv.classList.add('hide');
     techDiv.classList.remove('hide');
+    contactLinkDiv.classList.add('hide');
   } 
   const clickEvents = () => {
     const bioLink = document.getElementById('aboutLink');
@@ -90,6 +107,7 @@ const printToDom = (divId, textToPrint) => {
     bioLink.addEventListener('click', bioHideAndShow);
     projectLink.addEventListener('click', projectHideAndShow);
     techLink.addEventListener('click', techHideAndShow);
+    contactLink.addEventListener ('click', techHideAndShow);
   }
   const createProjectCard = (array) => {
     let domString = "";
