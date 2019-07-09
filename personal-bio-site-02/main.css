@@ -2,12 +2,12 @@
     background-color: blanchedalmond;
 }
 body {
-    background-image: url(https://image.shutterstock.com/image-photo/bright-colors-dawn-on-beach-260nw-1288885015.jpg);
+    background-image: url(https://image.architonic.com/img_pro2-4/145/0841/sahara-design-collection-h.jpg);
     background-position: center center ; 
     background-size: cover;
     background-attachment: fixed;
 }
-#siteName{
+#Name{
     font-size: 75px;
     text-align: center;
     font-style: italic;
@@ -19,48 +19,36 @@ body {
 
   }
   
-  .biopic {
+  .ContactMeList{
+    width:60rem;
+  }
+
+  .d-flex {
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+  ul{
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  
+  font-size: xx-large;
+  }
+  #AboutPage{
+    display: flex;
+  }
+  .Aboutpic {
     width:400px;
     border-radius: 100%;
     margin-top: 5rem
 }
 
-  .biotext{
-    float:right;
-    margin-left: 0px;
-    margin-left: 0rem;
-    margin-top: 10rem;
-    font-size: 1.5rem;
-  
-  }
-  .topnav-center {
-    float: center;
-    font-size: 25px;
-    color:black;
-    margin-left: 40rem;
-  
-  }
-  .h1{
-    text-align: center;
-  }
-  .p{
-    float: left;
-    margin-top: 8rem;
-    
-  }
+.abouttext{
+  float:right;
+  margin-left: 0px;
+  margin-left: 0rem;
+  margin-top: 10rem;
+  font-size: 1.5rem;
 
-  .ul{
-    font-size:2rem;
-  }
-
-  .page-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color:black;
-    text-align: center;
-    float:bottom;
-  
 }
+
   

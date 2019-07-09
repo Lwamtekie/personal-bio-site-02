@@ -1,79 +1,106 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <header id='siteName'><b>Lwam-Tekie</b></header>
-  <link rel='stylesheet' href="./navBar.css">
-  <link rel="stylesheet" href="../main.css">
+  <title>Personal Bio site</title>
 
- 
+  <link href="https://fonts.googleapis.com/css?family=Anton|Germania+One|Pathway+Gothic+One|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
 </head>
 
+
 <body>
+  <h1 id='Name'>Lwam-Tekie</h1>
 
-  <div>
-    <!-- Navigation -->
-    <nav>
-      
-      
-      <div class="topnav-center">
-          
-        <a href="navToBio">Bio</a>
-        <a href="navToTechnologies">Technologies</a>
-        <a href="navToProjects">Projects</a>
+
+
+  <nav id="topNav" class="navbar navbar-expand-lg d-flex">
+
+
+
+
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav redBlue ml-auto">
+        <a class="nav1 nav-item nav-link active" href="AboutPage">About <span class="sr-only">(current)</span></a>
+        <a class="nav2 nav-item nav-link" href="ProjectPage">Project<span class="#"></span></a>
+        <a class="nav2 nav-item nav-link" href="TechnologiesPage">Technologies<span class="#"></span></a>
       </div>
-      </ul>
-    </nav>
-    <!-- End Navigation -->
-
-
-
-    <!-- Primary View -->
-
-    <div class="fullPage" id="bioPage">
-      <div class="image"><img class="biopic" src="https://avatars2.githubusercontent.com/u/47877959?s=400&u=093d974c55ba9fdca670611a6f1e2600bc859e5b&v=4"
-        alt="Lwam"></div>
-      <div class="bioText">
-        <p>I don't have any background in web developing and coding at all. But I love the challenge of making things. And when I start to learn web developing in  NSS, It was a little bit foreign. But  I like the progress I am making from where I start. And coding is a challenge and fun at the same time.</p>
     </div>
-  </div>
-
-
-
-
-    <div class="fullPage" id="technologiesPage">
+  </nav>
+  <!-- End Navigation -->
+  <div class="fullPage" id="AboutPage">
+      
+          <div class="image"><img class="Aboutpic" src="https://avatars2.githubusercontent.com/u/47877959?s=400&u=093d974c55ba9fdca670611a6f1e2600bc859e5b&v=4"
+            alt="Lwam"></div>
+          <div class="AboutText">
+            <p>I don't have any background in web developing and coding at all. But I love the challenge of making things. And when I start to learn web developing in  NSS, It was a little bit foreign. But  I like the progress I am making from where I start. And coding is a challenge and fun at the same time.</p>
+        </div>
+      </div>
+   
+    
+  
+  <div class="fullPage" id="TechnologiesPage">
       <ul id="Technologies">
         <header>Technologies</header>
         <li>html</li>
         <li> main.css</li>
         <li>J.S</li>
-        <li>json.data(db)</li>
+        
       </ul>
     </div>
-    <div class="fullPage" id="projectsPage"></div>
-    <ul id="projects"header>Projects</header>
-      <li>Product-cards</li>
-      <li> Pet-adoption</li>
-      <li>favorite-places</li>
+  
+  <div class="fullPage" id="ProjectPage">
+    <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+  </div>
+
+
+
+
+
+
+
+
+  <!-- End social media section -->
+
+  <div class="ContactsMe">
+    <ul class="ContactMeList">
+      <li class="ContactsMe"><a class="Contact1" href="Ltekie@yahoo.com"><i
+            class="far fa-envelope social-button"></i></a></li>
+      <li class="ContactsMe"><a class="Contact1" href="https://www.linkedin.com/in/lwam-tekie/"
+          target="https://www.linkedin.com/in/lwam-tekie-150538157/"><i class="fab fa-yelp social-button"></i></a></li>
+      <li class="ContactsMe"><a class="Contact1" href="https://github.com/Lwamtekie"
+          target="https://github.com/Lwamtekie"><i class="fab fa-yelp social-button"></i></a></li>
+
     </ul>
+  </div> <!-- End social media section -->
 
 
 
 
-    <footer class="page-footer">
-      <ul style="list-style-type:none;">
-        <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-       <header>Contact</header>
-        <li>phone:615-638-3748</li>
-        <li>email:ltekie87@yahoo.com</li>
-        <li>github:https://github.com/Lwamtekie</li>
-      </ul>
 
-    </footer>
 
-    <script src="../main.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
 
 </html>
