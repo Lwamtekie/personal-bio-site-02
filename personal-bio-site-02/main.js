@@ -122,6 +122,8 @@ const printToDom = (divId, textToPrint) => {
       domString += `<p class="link">Check it out <a href={project.url}>HERE</a></p>`;
       domString += `</div>`;
       domString += `</div>`;
+      domString += `</div>`;
+
     })
     printToDom('ProjectPage', domString);
     clickEvents();
