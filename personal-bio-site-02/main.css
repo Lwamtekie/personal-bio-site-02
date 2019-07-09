@@ -1,4 +1,4 @@
-```body{
+body{
   background-color: blanchedalmond;
 }
 body {
@@ -14,10 +14,7 @@ body {
   -webkit-text-fill-color: Black;
 }
 
-/* #bioPage{
-  display: flex;
 
-} */
 
 .ContactMeList{
   width:60rem;
@@ -25,7 +22,7 @@ body {
 
 .d-flex {
   font-size: 2rem;
-  margin-right: 2rem;
+  margin-right: 30rem;
 }
 ul{
 margin-bottom: 1rem;
@@ -33,9 +30,7 @@ margin-left: 2rem;
 
 font-size: xx-large;
 }
-/* #AboutPage{
-  display: flex;
-} */
+
 .Aboutpic {
   width:400px;
   border-radius: 100%;
@@ -53,9 +48,5 @@ font-size: 1.5rem;
 
 .hide {
 display: none;
-}```
+}
 
-Message Input
-
-
-Message Jeressia Williamson
