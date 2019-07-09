@@ -50,3 +50,49 @@ font-size: 1.5rem;
 display: none;
 }
 
+
+.col-4{
+  margin: 15px;
+  border: 1px solid BLACK;
+  box-shadow: 1px 2px 2px 1px;
+  padding: 0px;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  width: 30%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5ppx;
+  margin-right: 5px;
+  max-width: 100%;
+  background-color: blanchedalmond;
+  align-content: center;
+} 
+.flex-wrap{
+  justify-content: center;
+}
+
+img {
+  height: 200px;
+
+}
+
+/* .projects-container{
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  min-width: 600px;
+  flex-grow: 0;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  }
+ */
+
+ .card{
+   max-width: 400px;
+ }
+
+ .card-body {
+   padding: 0;
+   
+ }
