@@ -1,11 +1,10 @@
 body{
-  background-color: blanchedalmond;
-}
-body {
+  justify-content: center;
   background-image: url(https://image.architonic.com/img_pro2-4/145/0841/sahara-design-collection-h.jpg);
   background-position: center center ; 
   background-size: cover;
   background-attachment: fixed;
+  align-content: center;
 }
 #Name{
   font-size: 75px;
@@ -22,19 +21,22 @@ body {
 
 .d-flex {
   font-size: 2rem;
-  margin-right: 30rem;
+  justify-content: center;
+ 
 }
 ul{
 margin-bottom: 1rem;
 margin-left: 2rem;
-
 font-size: xx-large;
 }
 
 .Aboutpic {
-  width:400px;
-  border-radius: 100%;
-  margin-top: 5rem
+  margin-bottom: 4rem;
+    /* margin-left: 30rem; */
+    width: 400px;
+    border-radius: 100%;
+    margin-top: 5rem;
+}
 }
 
 .abouttext{
@@ -56,15 +58,12 @@ display: none;
   border: 1px solid BLACK;
   box-shadow: 1px 2px 2px 1px;
   padding: 0px;
-  -webkit-flex-flow: row wrap;
   justify-content: space-around;
-  width: 30%;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 5ppx;
   margin-right: 5px;
   max-width: 100%;
-  background-color: blanchedalmond;
   align-content: center;
 } 
 .flex-wrap{
@@ -76,17 +75,17 @@ img {
 
 }
 
-/* .projects-container{
+.projects-container{
   display: flex;
   text-align: center;
   flex-wrap: nowrap;
   min-width: 600px;
   flex-grow: 0;
-  -webkit-flex-flow: row wrap;
   justify-content: center;
   align-content: center;
+  
   }
- */
+
 
  .card{
    max-width: 400px;
