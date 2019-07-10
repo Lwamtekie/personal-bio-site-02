@@ -37,7 +37,7 @@ const printToDom = (divId, textToPrint) => {
       screenshot:
         "https://raw.githubusercontent.com/Lwamtekie/favorite_places/master/screenshots/screencapture-127-0-0-1-8083-2019-05-18-12_42_26.png",
       description:
-        "This projectis different form the pervious assignments, because all the data for favorite places is in Json file not in main.js. So main.js has only the Print To Dom and the domString to style the bootstrap card. The styling and color is in main.css.",
+        "This project is different form the pervious assignments, because all the data for favorite places is in Json file not in main.js. So main.js has only the Print To Dom and the domString to style the bootstrap card. The styling and color is in main.css.",
       technologiesUsed: "index.html, main.css, main.js, json.data(db)",
       available: true,
       url: "https://github.com/Lwamtekie/favorite_places"
@@ -49,7 +49,7 @@ const printToDom = (divId, textToPrint) => {
       description:
         "The Foodie Club is similar with the online checkout style cart. it helps to secure the final price by passing information through modules.",
       technologiesUsed:
-        "html, css and javascript modular javascript import and export to pass information between modules more secure information approach",
+        "html,css,javascript and modular javascript with import and export.",
       available: true,
       url: "https://github.com/Lwamtekie/sandwich-maker"
     }
@@ -59,56 +59,52 @@ const printToDom = (divId, textToPrint) => {
     const bioDiv = document.getElementById('AboutPage');
     const projectDiv = document.getElementById('ProjectPage');
     const techDiv = document.getElementById('TechnologiesPage');
-    const contactLinkDiv = document.getElementById('ContactPage');
+    
+    
     bioDiv.classList.remove('hide');
     projectDiv.classList.add('hide');
     techDiv.classList.add('hide');
-    contactLinkDiv.classList.add('hide');
-      
+    
     } 
-    const contactsLinkHideAndShow = () => {
-        const bioDiv = document.getElementById('AboutPage');
-        const projectDiv = document.getElementById('ProjectPage');
-        const techDiv = document.getElementById('TechnologiesPage');
-        const contactLinkDiv = document.getElementById('ContactPage');
-        bioDiv.classList.add('hide');
-        projectDiv.classList.add('hide');
-        techDiv.classList.add('hide');
-        contactLinkDiv.classList.remove('hide');
+    
         
-      } 
+       
     
   const projectHideAndShow = () => {
     const bioDiv = document.getElementById('AboutPage');
     const projectDiv = document.getElementById('ProjectPage');
     const techDiv = document.getElementById('TechnologiesPage');
-    const contactLinkDiv = document.getElementById('ContactPage');
+    
+    
     bioDiv.classList.add('hide');
     projectDiv.classList.remove('hide');
     techDiv.classList.add('hide');
-    contactLinkDiv.classList.add('hide');
+    
     
   } 
   const techHideAndShow = () => {
     const bioDiv = document.getElementById('AboutPage');
     const projectDiv = document.getElementById('ProjectPage');
     const techDiv = document.getElementById('TechnologiesPage');
-    const contactLinkDiv = document.getElementById('ContactPage');
+    
     bioDiv.classList.add('hide');
     projectDiv.classList.add('hide');
     techDiv.classList.remove('hide');
-    contactLinkDiv.classList.add('hide');
+    
   } 
   const clickEvents = () => {
     const bioLink = document.getElementById('aboutLink');
     const projectLink= document.getElementById('projectLink');
     const techLink = document.getElementById('techLink');
     const contactLink = document.getElementById('contactLink')
+   
     bioLink.addEventListener('click', bioHideAndShow);
     projectLink.addEventListener('click', projectHideAndShow);
     techLink.addEventListener('click', techHideAndShow);
-    contactLink.addEventListener ('click', techHideAndShow);
+    contactLink.addEventListener('click');
   }
+  
+  
   const createProjectCard = (array) => {
     let domString = "";
     array.forEach(project => {
@@ -119,7 +115,7 @@ const printToDom = (divId, textToPrint) => {
       domString +=   `<div class="card-body">`;
       domString += `<p class="description">${project.description}</p>`;
       domString += `<h3 class="tech">${project.technologiesUsed}</h3>`;
-      domString += `<p class="link">Check it out <a href={project.url}>HERE</a></p>`;
+      domString += `<button class="btn btn-primary project-link" href=${project.url}>GitHub</button>`;
       domString += `</div>`;
       domString += `</div>`;
       domString += `</div>`;
@@ -129,7 +125,6 @@ const printToDom = (divId, textToPrint) => {
     clickEvents();
   };
   const init = () => {
-    createProjectCard(projects);
+  createProjectCard(projects);
   };
   init();
-  
