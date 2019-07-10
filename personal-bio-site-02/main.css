@@ -1,11 +1,11 @@
 body{
-  justify-content: center;
   background-image: url(https://image.architonic.com/img_pro2-4/145/0841/sahara-design-collection-h.jpg);
   background-position: center center ; 
   background-size: cover;
   background-attachment: fixed;
   align-content: center;
-}
+  text-align: center;
+  }
 #Name{
   font-size: 75px;
   text-align: center;
@@ -15,35 +15,33 @@ body{
 
 
 
-.ContactMeList{
-  width:60rem;
-}
+
 
 .d-flex {
   font-size: 2rem;
   justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+   min-width: 1200px;
+  flex-grow: 0;
+  justify-content: 2px; 
  
 }
 ul{
 margin-bottom: 1rem;
 margin-left: 2rem;
 font-size: xx-large;
+
 }
 
 .Aboutpic {
-  margin-bottom: 4rem;
-    /* margin-left: 30rem; */
-    width: 400px;
-    border-radius: 100%;
-    margin-top: 5rem;
-}
+  border-radius: 100%;
 }
 
+
 .abouttext{
-float:right;
-margin-left: 0px;
-margin-left: 0rem;
-margin-top: 10rem;
+  margin: 0 auto; 
 font-size: 1.5rem;
 
 }
@@ -54,44 +52,53 @@ display: none;
 
 
 .col-4{
-  margin: 15px;
+  margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px;
   border: 1px solid BLACK;
   box-shadow: 1px 2px 2px 1px;
   padding: 0px;
   justify-content: space-around;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5ppx;
-  margin-right: 5px;
-  max-width: 100%;
-  align-content: center;
-} 
+  max-width: 400px;
+  
+  } 
+
 .flex-wrap{
   justify-content: center;
 }
 
 img {
   height: 200px;
+  margin: auto 0;
+  width: 200px;
 
 }
 
-.projects-container{
+.container{
   display: flex;
-  text-align: center;
-  flex-wrap: nowrap;
-  min-width: 600px;
-  flex-grow: 0;
-  justify-content: center;
-  align-content: center;
-  
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    float: none; 
+
   }
 
+  
+ 
 
- .card{
-   max-width: 400px;
- }
+   .navbar-collapse {
+    flex-grow: 0; 
+   }
 
- .card-body {
-   padding: 0;
-   
- }
+.card{
+  display: block;
+  background: none;
+  }
+
+  .row {
+    margin: 0 auto; 
+    justify-content: center;
+    justify-content: space-around; 
+}
