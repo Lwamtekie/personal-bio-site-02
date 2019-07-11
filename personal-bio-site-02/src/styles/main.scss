@@ -5,12 +5,14 @@ body{
   background-attachment: fixed;
   align-content: center;
   text-align: center;
-  }
+}
+
+
 #Name{
-  font-size: 75px;
-  text-align: center;
-  font-style: italic;
-  -webkit-text-fill-color: Black;
+  margin-top: auto;
+ font-size: 2.5rem;
+font-style: italic;
+  
 }
 
 
@@ -23,13 +25,13 @@ body{
   display: flex;
   text-align: center;
   flex-wrap: nowrap;
-   min-width: 1200px;
-  flex-grow: 0;
+   flex-grow: 0;
   justify-content: 2px; 
- 
 }
+
+
 ul{
-margin-bottom: 1rem;
+margin-bottom: 2rem;
 margin-left: 2rem;
 font-size: xx-large;
 
@@ -37,12 +39,14 @@ font-size: xx-large;
 
 .Aboutpic {
   border-radius: 100%;
+  width: 200px;
+  height: 200px;
 }
 
 
 .abouttext{
   margin: 0 auto; 
-font-size: 1.5rem;
+font-size: 2rem;
 
 }
 
@@ -84,14 +88,20 @@ img {
     float: none; 
 
   }
-
-  
- 
-
-   .navbar-collapse {
+.navbar-collapse {
     flex-grow: 0; 
-   }
+    text-decoration: solid;
+    font-size: 2rem;
+    
+}
+.collapse:not(.show) {
+  /* display: none; */
+  display: inherit;
+  border: solid;
+  background-color: rgba(240, 128, 128, 0.5);
+  margin-top: 2rem;
 
+}
 .card{
   display: block;
   background: none;
@@ -100,5 +110,48 @@ img {
   .row {
     margin: 0 auto; 
     justify-content: center;
-    justify-content: space-around; 
+    // justify-content: space-around; 
 }
+.container {
+  background: none;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  float: none;
+}
+
+.jumbotron {
+  margin-top:2rem;
+  background:none; 
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  max-width: 600px;
+  border:solid;
+  border-width: thick;
+  box-shadow: 2rem;
+  
+}
+
+.text-center{
+  padding:0;
+  font-stretch: condensed;
+}
+
+.techpic{
+  height: 600px;
+    margin: auto 0;
+    width: 500px;
+    background: none;
+}
+
+a {
+  padding: 1rem;
+  color: chocolate;
+  margin: 0 auto;
+  
+    
+} 
