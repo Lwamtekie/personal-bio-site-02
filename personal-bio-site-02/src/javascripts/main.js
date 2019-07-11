@@ -106,12 +106,12 @@ const createProjectCard = (array) => {
   array.forEach((project) => {
     domString += '<div class="col-4 product">';
     domString += '<div class="card">';
-    domString += `<h2 class="title">${project.title}</h2>`;
+    domString += `<h3 class="title">${project.title}</h3>`;
     domString += `<img class= "screenshot" src=${project.screenshot}></img>`;
     domString += '<div class="card-body">';
     domString += `<p class="description">${project.description}</p>`;
     domString += `<h3 class="tech">${project.technologiesUsed}</h3>`;
-    domString += `<button class="btn btn-primary project-link" href=${project.url}>GitHub</button>`;
+    domString += `<a class="btn btn-primary project-link" target="_blank" href=${project.url}>GitHub</a>`;
     domString += '</div>';
     domString += '</div>';
     domString += '</div>';
