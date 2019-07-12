@@ -17,7 +17,7 @@ Personal site of one page, with basic html and javascript. And some styling for 
 
 #How To Run:
 
- Clone this repository: git clone https://github.com/Lwamtekie/Personal-bio-site- Go into the repository cd personal-site Run http server hs -p 5000
+ Clone this repository: git clone https://github.com/Lwamtekie/personal-bio-site-02 Go into the repository cd personal-site Run http server hs -p 5000
 
 #Author:
 
