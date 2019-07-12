@@ -12,7 +12,7 @@ Personal site of one page, with basic html and javascript. And some styling for 
 
 #screenshot:
 
-![ screenshot](https://raw.githubusercontent.com/Lwamtekie/personal-bio-site-02/master/personal-bio-site-02/images/screencapture-127-0-0-1-8080-2019-07-09-14_16_04.png)
+![ screenshot](https://raw.githubusercontent.com/Lwamtekie/personal-bio-site-02/master/images/screencapture-localhost-8081-2019-07-11-19_02_20.png)
 
 
 #How To Run:
