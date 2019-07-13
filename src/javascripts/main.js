@@ -13,6 +13,7 @@ const projects = [
     technologiesUsed: 'HTML and CSS',
     available: true,
     url: 'https://github.com/Lwamtekie/product-cards',
+    githubUrl: 'https://github.com/Lwamtekie/product-cards',
   },
   {
     title: 'Sorting-hat',
@@ -23,6 +24,7 @@ const projects = [
     technologiesUsed: ' index.html, main.js, main.css',
     available: true,
     url: 'https://github.com/Lwamtekie/Sorting-hat',
+    githubUrl: 'https://github.com/Lwamtekie/Sorting-hat',
   },
   {
     title: 'Temperature-Converter',
@@ -33,6 +35,7 @@ const projects = [
     technologiesUsed: 'index.html, main.js, main.css',
     available: true,
     url: 'https://github.com/Lwamtekie/Temperature-Converter',
+    githubUrl:'https://github.com/Lwamtekie/Temperature-Converter',
   },
   {
     title: 'favorite Places',
@@ -43,6 +46,7 @@ const projects = [
     technologiesUsed: 'index.html, main.css, main.js, json.data(db)',
     available: true,
     url: 'https://github.com/Lwamtekie/favorite_places',
+    githubUrl:'https://github.com/Lwamtekie/favorite_places',
   },
   {
     title: 'sandwich-maker',
@@ -54,6 +58,7 @@ const projects = [
         'html,css,javascript and modular javascript with import and export.',
     available: true,
     url: 'https://github.com/Lwamtekie/sandwich-maker',
+    githubUrl: 'https://github.com/Lwamtekie/sandwich-maker',
   },
 ];
 
@@ -111,7 +116,8 @@ const createProjectCard = (array) => {
     domString += '<div class="card-body">';
     domString += `<p class="description">${project.description}</p>`;
     domString += `<h3 class="tech">${project.technologiesUsed}</h3>`;
-    domString += `<a class="btn btn-primary project-link" target="_blank" href=${project.url}>GitHub</a>`;
+    domString += `<a class="btn btn-primary project-link" target="_blank" href=${project.url}>Website</a>`;
+    domString += `<button class="project-link btn btn-primary" href="${project.url}">github</button>`;
     domString += '</div>';
     domString += '</div>';
     domString += '</div>';
