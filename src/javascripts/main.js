@@ -12,7 +12,7 @@ const projects = [
     description: 'Product cards using html, css, and flexbox for positioning',
     technologiesUsed: 'HTML and CSS',
     available: true,
-    url: 'https://github.com/Lwamtekie/product-cards',
+    url: 'https://product-card-9defb.firebaseapp.com/',
     githubUrl: 'https://github.com/Lwamtekie/product-cards',
   },
   {
@@ -23,7 +23,7 @@ const projects = [
         ' In this project we used the buttons in index.html to work by using the eventlisner function in java script. And by building the container in the domString builder in the javascript. ',
     technologiesUsed: ' index.html, main.js, main.css',
     available: true,
-    url: 'https://github.com/Lwamtekie/Sorting-hat',
+    url: 'https://sorting-hat-e505f.firebaseapp.com/',
     githubUrl: 'https://github.com/Lwamtekie/Sorting-hat',
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     technologiesUsed: 'index.html, main.js, main.css',
     available: true,
     url: 'https://github.com/Lwamtekie/Temperature-Converter',
-    githubUrl:'https://github.com/Lwamtekie/Temperature-Converter',
+    githubUrl: 'https://github.com/Lwamtekie/Temperature-Converter',
   },
   {
     title: 'favorite Places',
@@ -45,8 +45,8 @@ const projects = [
         'This project is different form the pervious assignments, because all the data for favorite places is in Json file not in main.js. So main.js has only the Print To Dom and the domString to style the bootstrap card. The styling and color is in main.css.',
     technologiesUsed: 'index.html, main.css, main.js, json.data(db)',
     available: true,
-    url: 'https://github.com/Lwamtekie/favorite_places',
-    githubUrl:'https://github.com/Lwamtekie/favorite_places',
+    url: 'https://place-to-visit-7191a.firebaseapp.com/',
+    githubUrl: 'https://github.com/Lwamtekie/favorite_places',
   },
   {
     title: 'sandwich-maker',
@@ -57,7 +57,7 @@ const projects = [
     technologiesUsed:
         'html,css,javascript and modular javascript with import and export.',
     available: true,
-    url: 'https://github.com/Lwamtekie/sandwich-maker',
+    url: 'https://foodies-club-191c5.firebaseapp.com/',
     githubUrl: 'https://github.com/Lwamtekie/sandwich-maker',
   },
 ];
@@ -116,8 +116,8 @@ const createProjectCard = (array) => {
     domString += '<div class="card-body">';
     domString += `<p class="description">${project.description}</p>`;
     domString += `<h3 class="tech">${project.technologiesUsed}</h3>`;
-    domString += `<a class="btn btn-primary project-link" target="_blank" href=${project.url}>Website</a>`;
-    domString += `<button class="project-link btn btn-primary" href="${project.url}">github</button>`;
+    domString += `<a class="btn btn-primary project-link" target="_blank" href=${project.githubUrl}>github</a>`;
+    domString += `<a class="project-link btn btn-primary" target="_blank" href="${project.url}">website</a>`;
     domString += '</div>';
     domString += '</div>';
     domString += '</div>';
