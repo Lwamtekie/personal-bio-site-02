@@ -34,7 +34,7 @@ const projects = [
         'The application show the conversion of temperature from fahrenheit to celsius, and celsius to fahrenheit.',
     technologiesUsed: 'index.html, main.js, main.css',
     available: true,
-    url: 'https://github.com/Lwamtekie/Temperature-Converter',
+    url: 'https://temperature-converter-e0a77.firebaseapp.com/',
     githubUrl: 'https://github.com/Lwamtekie/Temperature-Converter',
   },
   {
