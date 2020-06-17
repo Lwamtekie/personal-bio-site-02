@@ -1,0 +1,132 @@
+body {
+  background-image: url("http://thepinkcadillacacademy.com/wp-content/uploads/2015/04/artleo.com-8070.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  align-content: center;
+  text-align: center; }
+
+.d-fle {
+  font-size: 2rem;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  justify-content: 2px; }
+
+.hide {
+  display: none; }
+
+.col-4 {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  border: 1px solid BLACK;
+  box-shadow: 1px 2px 2px 1px;
+  padding: 0px;
+  justify-content: space-around;
+  max-width: 400px; }
+
+.flex-wrap {
+  justify-content: center; }
+
+img {
+  height: 200px;
+  margin: auto 0;
+  width: 200px; }
+
+.container {
+  background: none;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  float: none; }
+
+.navbar-collapse {
+  flex-grow: 0; }
+
+.collapse:not(.show) {
+  /* display: none; */
+  display: inherit;
+  margin: auto; }
+
+.nav-link {
+  font-size: 1.5rem;
+  width: 175px;
+  border: solid;
+  border-radius: 50%;
+  padding: 2rem;
+  height: 100px;
+  background-color: rosybrown;
+  text-align: center;
+  margin-top: 4rem;
+  box-shadow: 2px 4px 4px 4px;
+  margin-right: 5px;
+  padding-left: 20px; }
+
+.card {
+  margin-top: 2rem;
+  display: block;
+  background: none; }
+
+.row {
+  justify-content: center;
+  margin-top: 4rem; }
+
+.h2 {
+  font-size: 2rem;
+  margin-top: 2rem; }
+
+.text-center {
+  padding: 0;
+  font-stretch: condensed; }
+
+.techpic {
+  height: 600px;
+  margin: auto 0;
+  width: 500px;
+  background: none; }
+
+.jumbotron {
+  margin-top: 2rem;
+  background: none;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  max-width: 600px;
+  border: solid;
+  border-width: thick;
+  box-shadow: 2rem; }
+
+.Aboutpic {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px; }
+
+#Name {
+  margin-top: auto;
+  font-size: 2.5rem;
+  font-style: italic; }
+
+p {
+  text-indent: 50px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align-last: left;
+  text-align: initial;
+  font-style: oblique; }
+
+a {
+  padding: 1rem;
+  color: chocolate;
+  margin: 0 auto; }
+
+ul {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  font-size: xx-large; }
+
